@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c6a5ff129.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Sevices</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>FullStack Web Developer</p>
+                <h1>Hi,I'm <span>Santosh</span> <br>Kumar Sethy...</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/user.png" alt="It's me" height="500px" width="410px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Exceptionally creative and dependable Entry Level Web Developer with a stellar customer service
+                        record and superb work ethic. Broadly and deeply knowledgeable in a wide variety of computer
+                        languages as well as the principles and techniques of website construction and maintenance.
+                        Highly adept at conveying complex technical information to a variety of professional and lay
+                        audiences in a clear and understandable manner.Superior facility with both Windows and MAC
+                        operating systems</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Exprience')">Exprience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>BACKEND SOLUTION</span><br> web apps, mobile applications, and IoT ecosystems</li>
+                                <li><span> APP DEVELOPMENT</span><br>Building android/ios apps</li>
+                                <li><span>DATABSE ADMINISTRATOR</span><br>Superior knowledge of SQL</li>
+                                <li><span>WEB DEVELOPMENT </span><br>Full-stack web development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Exprience">
+                            <ul>
+                                <li><span>Machiene learning</span><br>Python in jupyter notebook</li>
+                                <li><span> Web-development</span><br>basic html,css and js</li>
+                                <li><span>JAVA</span><br>expertise in core java</li>
+                                <li><span> Full-stack web development</span><br>currently working on this stage</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2020-current</span><br> Bachelor of Technology in <br> Electronics and computer science, <br>in Gandhi engineering college, Bhubaneswar</li>
+                                <li><span> 2018-2020</span><br>Intermediate in <br>Saraswati vidya mandir, neelakantha nagar , <br> Berhmapur</li>
+                                <li><span>2016-2018</span><br>Matriculation in Govt. high school, Nuapada</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full-stack Web development</h2>
+                    <p>I have a strong background in web development, having worked as both a front-end and back-end developer for several years. My skills include HTML, CSS, JavaScript, ReactJS, NodeJS, PHP, and MySQL. I am also familiar with popular frameworks such as Bootstrap and Laravel.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-google-play"></i>
+                    <h2>App Development</h2>
+                    <p>I specialize in native applications for iOS and Android devices, but can also work with HTML5 if needed. My main expertise lies in the areas of user experience design, data visualization and cloud-based systems integration. </p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Administrator</h2>
+                    <p>Highly motivated and detail-oriented Fresher DevOps Engineer with a passion for automation and improving system performance. Skilled in implementing CI/CD pipelines, automating system administration tasks, and collaborating with cross-functional teams to identify and resolve issues. Proven track record in reducing deployment time by 50%, improving system reliability, and increasing team productivity by 25%.</p>                <a href="#">Learn more...</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -----------portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>This app connect you to the talented people around the world. Download it from playstore or app store </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Spotify clone app</h3>
+                        <p> Swedish media streaming and audio service that offers access to music, podcasts, playlists, and artists.</p>
+
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>E-commerce app</h3>
+                        <p> This e-commerce app allows users to shop online, browse product catalogs, and complete purchases. </p>                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+    <!-- -----------contact-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sethi.santoshkumar42@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9090600661</p>
+                   <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/santosh-kumar-sethy-7b7a7220b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Santosh53444465"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/santox_h_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/simple.santosh.9"><i class="fa-brands fa-facebook"></i></a>
+                   </div>
+                   <a href="/images/RESUME.pdf" download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="7" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Copyright 2024, All Rights Reserved   <i class="fa-brands fa-apple"></i> SKsethy</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyTdwVntyhVHploXW778dpfpKYrMxAQ-Ye2FASlZluL6ZlDZj4kToUAVcsKjyhhoya6/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
